@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,9 +10,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -1,4 +1,7 @@
-﻿namespace Shop.ASP_NET;
+﻿using Microsoft.EntityFrameworkCore;
+using Shop.ASP_NET.Data;
+
+namespace Shop.ASP_NET;
 
 public class Program
 {
@@ -8,6 +11,8 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+        builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer("Server=localhost;Database=shop;User Id=myuser;Password=Password123;Trusted Connection=True;"));
 
         var app = builder.Build();
 
