@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Shop.ASP_NET.Models
@@ -10,6 +11,7 @@ namespace Shop.ASP_NET.Models
 
         public string Name { get; set; }
 
+        [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
     }
 }

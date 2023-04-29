@@ -11,9 +11,15 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Data\" />
+    <None Remove="Views\Category\" />
+    <None Remove="Migrations\" />
+    <None Remove="Views\ApplicationType\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Views\Category\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Views\ApplicationType\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />

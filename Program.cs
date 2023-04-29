@@ -12,7 +12,7 @@ public class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer("Server=localhost;Database=shop;User Id=myuser;Password=Password123;Trusted Connection=True;"));
+        options.UseSqlServer("Server=localhost,1433;Database=shop;User Id=SA;Password=Password123;TrustServerCertificate=True;"));
 
         var app = builder.Build();
 

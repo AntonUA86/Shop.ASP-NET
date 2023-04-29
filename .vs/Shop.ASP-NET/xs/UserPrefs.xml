@@ -1,18 +1,33 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CategoryController.cs">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="Controllers/CategoryController.cs" Line="33" Column="46" />
+      <File FileName="appsettings.json" />
+      <File FileName="Views/Category/Index.cshtml" />
+      <File FileName="Views/Category/Create.cshtml" />
+      <File FileName="Models/Category.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Shop.ASP-NET" expanded="True">
-            <Node name="Shop.ASP-NET" selected="True" />
+          <Node name="Shop.ASP-NET">
+            <Node name="Shop.ASP-NET" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CategoryController.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Shop.ASP-NET FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Shop.ASP-NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
