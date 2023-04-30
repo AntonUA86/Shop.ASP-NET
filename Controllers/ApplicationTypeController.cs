@@ -37,6 +37,79 @@ namespace Shop.ASP_NET.Controllers
             }
             return View(applicationType);
         }
+
+        //GET - EDIT
+        [HttpGet]
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var currentApplicationType = _dbContext.ApplicationType.Find(id);
+
+            if (currentApplicationType == null)
+            {
+                return NotFound();
+            }
+
+            return View(currentApplicationType);
+        }
+
+        //POST - EDIT
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(ApplicationType applicationType)
+        {
+            if (ModelState.IsValid)
+            {
+                _dbContext.ApplicationType.Update(applicationType);
+                _dbContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(applicationType);
+        }
+
+
+        //GET - DELETE
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var currentApplicationType = _dbContext.ApplicationType.Find(id);
+
+            if (currentApplicationType == null)
+            {
+                return NotFound();
+            }
+
+            return View(currentApplicationType);
+        }
+
+        //POST - DELETE
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult PostDelete(int? id)
+        {
+            var currentApplicationType = _dbContext.ApplicationType.Find(id);
+
+            if (currentApplicationType == null)
+            {
+                return NotFound();
+            }
+
+            _dbContext.ApplicationType.Remove(currentApplicationType);
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+
     }
 }
 
