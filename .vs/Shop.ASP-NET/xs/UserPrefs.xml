@@ -1,25 +1,32 @@
-﻿<Properties StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5010A2A1-B1DD-40D5-9BC6-3768A1E7D30E}|https">
   <MonoDevelop.Ide.ItemProperties.Shop.ASP-NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ApplicationType.cs">
+    <Files>
+      <File FileName="Models/Category.cs" />
+      <File FileName="Views/Category/Create.cshtml" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Views/Category/Index.cshtml" />
+      <File FileName="Views/Category/Edit.cshtml" />
+      <File FileName="Views/Category/Delete.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="wwwroot/fontawesome/css/all.css" />
+      <File FileName="Models/ApplicationType.cs" Line="16" Column="1" />
+      <File FileName="Controllers/ApplicationTypeController.cs" />
+      <File FileName="Views/ApplicationType/Delete.cshtml" />
+      <File FileName="Views/ApplicationType/Edit.cshtml" />
+      <File FileName="Data/ApplicationDbContext.cs" />
+      <File FileName="Controllers/CategoryController.cs" />
+      <File FileName="Views/ApplicationType/Create.cshtml" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Shop.ASP-NET">
             <Node name="Shop.ASP-NET">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="ApplicationType" expanded="True" />
-                <Node name="Category" expanded="True" />
-                <Node name="Shared" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ApplicationType.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,4 +34,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
